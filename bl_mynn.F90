@@ -514,6 +514,7 @@
     if(spp_pbl .eq. 1) then
        do k = kts,kte
           rstoch_col(k) = pattern_spp_pbl(i,k)
+          print*, 'physics_mmm', rstoch_col(k)
        enddo
     else
        do k = kts,kte
